@@ -1,0 +1,37 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lime;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+.navbar li a.active {
+	background-color: gold;
+}
+
+.main-content {
+	display: grid;
+}
+@media screen and (min-width: 600px){
+	.navbar li {
+		border-left: medium solid black;
+	    float: left;
+	}
+	.navbar li:last-child {
+		float: right;
+	}
+	.navbar li a {
+	    padding-left: 3px;
+	}
+
+	.main-content {
+		grid-template-columns: fr fr;
+	}
+}
