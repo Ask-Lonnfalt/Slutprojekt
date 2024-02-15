@@ -23,7 +23,13 @@ body {
 #main-content {
 	display: grid;
 }
-@media screen and (min-width: 600px){
+
+iframe {
+	width: 100vw;
+	height: 75vw;
+}
+
+@media screen and (min-width: 1000px){
 	.navbar li {
 		border-left: medium solid black;
 	    float: left;
@@ -37,5 +43,11 @@ body {
 
 	#main-content {
 		grid-template-columns: auto auto;
+	}
+	iframe {
+		position: relative;
+		top: 30%;
+		width: 420px;
+		height: 315px;
 	}
 }
