@@ -1,5 +1,6 @@
 body {
 	font-family: 'Montserrat';
+	margin: 0;
 }
 
 .navbar {
@@ -44,10 +45,17 @@ iframe {
 	#main-content {
 		grid-template-columns: auto auto;
 	}
+	/*youtube-video*/
 	iframe {
 		position: relative;
 		top: 30%;
 		width: 420px;
 		height: 315px;
+	}
+	/*google-maps*/
+	iframe#map {
+		top: 8px;
+		width: 60vw;
+		height: 45vw;
 	}
 }
