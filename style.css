@@ -30,6 +30,10 @@ iframe {
 	height: 75vw;
 }
 
+form * * {
+	margin-bottom: 10px;
+}
+
 @media screen and (min-width: 1000px){
 	.navbar li {
 		border-left: medium solid black;
@@ -57,5 +61,10 @@ iframe {
 		top: 8px;
 		width: 60vw;
 		height: 45vw;
+	}
+
+	input {
+		float: right;
+		margin-bottom: 0px;
 	}
 }

@@ -16,24 +16,56 @@
 		<li><a class="active" href="apply.htm">Apply</a></li>
 		<li><a href="about.htm">About</a></li>
 	</ul>
-	<div id="main-content">
-		<form>
+	<form id="main-content">
+		<div>
 			<div>
-				Personnummer (ÅÅÅÅMMDD-XXXX) *
-				Förnamn *
-				Efternamn *
-				c/o
-				Adress *
-				Postnummer *
-				Ort *
+				<label for="pernumber">Personnummer (ÅÅÅÅMMDD-XXXX) *</label>
+				<input name="pernumber" type="text">
 			</div>
 			<div>
-				Telefon
-				E-post
-				Hur vill du bli kontaktad? (telefon, e-post, sms) *
-				Medborgarskap (svensk, annat (ange land)) *
+				<label for="fname">Förnamn *</label>
+				<input name="fname" type="text">
 			</div>
-		</form>
-	</div>
+			<div>
+				<label for="sname">Efternamn *</label>
+				<input name="snamne" type="text">
+			</div>
+			<div>
+				<label for="co">c/o</label>
+				<input name="co" type="text">
+			</div>
+			<div>
+				<label for="adress">Adress *</label>
+				<input name="adress" type="text">
+			</div>
+			<div>
+				<label for="postnumber">Postnummer *</label>
+				<input name="postnumber" type="text">
+			</div>
+			<div>
+				<label for="locality">Ort *</label>
+				<input name="locality" type="text">
+			</div>
+			</div>
+		<div>
+			<div>
+				<label for="tnumber">Telefon</label>
+				<input name="tnumber" type="tel">
+			</div>
+			<div>
+				<label for="email">E-post</label>
+				<input name="email" type="email">
+			</div>
+			<div>
+				<label for="contact">Hur vill du bli kontaktad? (telefon, e-post, sms) *</label>
+				<input name="contact" type="radio">
+			</div>
+			<div>
+				<label for="citizenship">Medborgarskap (svensk, annat (ange land)) *</label>
+			</div>
+		<div></div>
+			<input type="submit">
+		</div>
+	</form>
 </body>
 </html>
