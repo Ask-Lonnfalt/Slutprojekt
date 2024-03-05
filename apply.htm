@@ -20,48 +20,57 @@
 		<div>
 			<div>
 				<label for="pernumber">Personnummer (ÅÅÅÅMMDD-XXXX) *</label>
-				<input name="pernumber" type="text">
+				<input id="pernumber" type="text">
 			</div>
 			<div>
 				<label for="fname">Förnamn *</label>
-				<input name="fname" type="text">
+				<input id="fname" type="text">
 			</div>
 			<div>
 				<label for="sname">Efternamn *</label>
-				<input name="snamne" type="text">
+				<input id="sname" type="text">
 			</div>
 			<div>
 				<label for="co">c/o</label>
-				<input name="co" type="text">
+				<input id="co" type="text">
 			</div>
 			<div>
 				<label for="adress">Adress *</label>
-				<input name="adress" type="text">
+				<input id="adress" type="text">
 			</div>
 			<div>
 				<label for="postnumber">Postnummer *</label>
-				<input name="postnumber" type="text">
+				<input id="postnumber" type="text">
 			</div>
 			<div>
 				<label for="locality">Ort *</label>
-				<input name="locality" type="text">
+				<input id="locality" type="text">
 			</div>
 			</div>
 		<div>
 			<div>
 				<label for="tnumber">Telefon</label>
-				<input name="tnumber" type="tel">
+				<input id="tnumber" type="tel">
 			</div>
 			<div>
 				<label for="email">E-post</label>
-				<input name="email" type="email">
+				<input id="email" type="email">
 			</div>
 			<div>
-				<label for="contact">Hur vill du bli kontaktad? (telefon, e-post, sms) *</label>
-				<input name="contact" type="radio">
+				<label>Hur vill du bli kontaktad? (telefon, e-post, sms) *</label>
+				<div>
+					<input name="contact" type="radio" value="telephone">
+					<input name="contact" type="radio" value="email">
+					<input name="contact" type="radio" value="sms">
+				</div>
 			</div>
 			<div>
-				<label for="citizenship">Medborgarskap (svensk, annat (ange land)) *</label>
+				<label>Medborgarskap (svensk, annat (ange land)) *</label>
+				<div>
+					<input name="citizenship" type="radio" value="swedish" onclick="document.getElementById('other').disabled=true">
+					<input name="citizenship" type="radio" value="other" onclick="document.getElementById('other').disabled=false">
+					<input id="other" type="text" disabled>
+				</div>
 			</div>
 		<div></div>
 			<input type="submit">

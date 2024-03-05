@@ -63,7 +63,7 @@ form * * {
 		height: 45vw;
 	}
 
-	input {
+	label + input,label + div {
 		float: right;
 		margin-bottom: 0px;
 	}
