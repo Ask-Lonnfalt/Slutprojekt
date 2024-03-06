@@ -1,0 +1,33 @@
+mall html 13:49
+validering html 14:15
+14:19
+mall css 14:35
+15:02
+index html 15:05
+index validering 3:44
+3:46
+index css 3:50
+FEL: kan inte centrera iframe i vertikal led
+4:30
+
+===2024-02-26===
+curriculum html 12:37
+curriculum validering 13:33 inga ändringar
+curriculum mobil css 13:35 inga ändringar
+13:36
+===2024-02-28===
+08:17 find_us html
+09:03 find_us validering
+09:04 find_us css
+09:31
+===2024-03-04===
+12:24 apply 12:49
+14:25 apply 15:10
+===2024-03-05===
+09:16 apply 
+09:27 apply validering 09:33
+===2024-03-06===
+08:12 about html
+08:34 about validering
+08:35 about css
+08:38 turn in
